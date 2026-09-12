@@ -92,7 +92,7 @@ input {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
-/-output "Xiaomi Corporation Mi Monitor 5833410058619" {
+output "Xiaomi Corporation Mi Monitor 5833410058619" {
     // Uncomment this line to disable this output.
     // off
 
@@ -105,7 +105,7 @@ input {
     mode "1920x1080@180.000"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 2
+    scale 1
 
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
